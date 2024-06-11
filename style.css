@@ -32,7 +32,7 @@ button {
     justify-content: space-around;
     align-items: center;
 }
-#passwordone  , #passwordttwo {
+#passwordone  , #passwordtwo {
  border: none ; 
  width: 250px;
     padding: 10px;
