@@ -1,0 +1,43 @@
+* { 
+    padding: 0;
+    margin: 0;
+    background: #102C57;
+}
+.contenrOne {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+    border-bottom: 2px solid #354b6c;
+    color: #fff;
+    
+}
+.diifColor {
+    color: #8DECB4;
+}
+button { 
+    margin: 40px 70px 40px 70px;   
+    padding: 10px;
+    background: #8DECB4;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contenrTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#passwordone  , #passwordttwo {
+ border: none ; 
+ width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #70839f;
+    color: #fff;
+}
