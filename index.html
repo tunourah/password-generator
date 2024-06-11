@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css"  rel="stylesheet" >
-</head>
-<body>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
     <div class="contenrOne">
-        <h1>Generate a <span class="diifColor">random password</span> </h1>
-        <p>Never use an insecure again.</p>
-
-        <button id="generate">Generate Password</button>
+      <h1>Generate a <span class="diifColor">random password</span></h1>
+      <p>Never use an insecure again.</p>
+      <div class="checkbox">
+        <input type="checkbox" id="length" />
         
+        <input type="checkbox" id="uppercase" />
+        <label for="uppercase">Uppercase</label>
+      </div>
+      <div class="layoutbutton">
+        <button id="generate">Generate Password</button>
+        <button id="refresh">Refersh</button>
+      </div>
     </div>
     <div class="contenrTwo">
-    <div id="passwordone"> </div>
-    <div id="passwordttwo"> </div>
-</div>
+      <div id="passwordone"></div>
+      <div id="passwordttwo"></div>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

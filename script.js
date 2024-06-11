@@ -11,16 +11,18 @@ let isActivated = false;
 let doing = true;
 
 generate.addEventListener("click", function() {
-    if (doing) {
+ 
         generatePassword()
-        doing = false;
-    } else if (!doing) {
-        cleer()
-        doing = true;
-
-    }
+     
+    
 
 })
+
+refresh.addEventListener("click", function() {
+
+    cleer();
+})
+
 
 function generatePassword() {
     if (!isActivated) {
