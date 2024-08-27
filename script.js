@@ -38,5 +38,5 @@ function createRandomPassword(length = 15) {
 function clearPasswords() {
     passwordone.textContent = "";
     passwordtwo.textContent = "";
-    isActivated = false;
+    isActivated = false; 
 }
